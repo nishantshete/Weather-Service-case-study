@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewBag.Title = "UploadFile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>UploadFile</h2>
+
+<form>
+    <input type="file" id="myfile" />
+    <br/><br/>
+    <input type="button" onclick="uploadFile();" value="Upload" />
+</form>
+<script type="text/javascript">
+    function uploadFile() {
+        //regex to check file is csv or not
+        var regex = new RegExp("(.*?)\.(csv)$");
+
+        if (!(regex.test(document.getElementById('myfile').value.toLowerCase()))) {
+            document.getElementById('myfile').value = '';
+            alert('Please select correct file format');
+        }
+        else {
+            var file = document.getElementById('myfile').files[0];
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    callback(xhr.status, document.getElementById('myfile').files[0].name);
+                }
+            }
+            //post file over xhr to webapi
+            xhr.open("POST", "http://localhost:53209/api/FileUpload");
+            xhr.setRequestHeader("filename", file.name);
+            xhr.send(file);
+        }
+       
+       
+    }
+    function callback(Response, filename) {
+        if (Response === 200) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200)
+                        alert("File has been processed");
+                    else
+                        alert(JSON.parse(xhr.responseText).ExceptionMessage);
+                }
+            }
+            //WepApi call to process file
+            xhr.open("GET", "http://localhost:53209/api/WeatherService?filename="+ filename);
+            
+            xhr.send(null);
+        }
+        else {
+            alert("There seems to be issue with file or path!! please try with correct file")
+        }
+        
+    }
+</script>
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>

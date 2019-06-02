@@ -1,0 +1,93 @@
+2019-06-02 16:25:55,675 [5] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetDataFromCsvFile Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv'.csv'.
+File name: 'C:\uploadedFiles\'citylist.csv'.csv'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 86
+2019-06-02 16:25:55,710 [5] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetWeather Data Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv'.csv'.
+File name: 'C:\uploadedFiles\'citylist.csv'.csv'
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 103
+   at WeatherService.Controllers.WeatherServiceController.<GetWeatherData>d__1.MoveNext() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 34
+2019-06-02 16:26:56,786 [5] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetDataFromCsvFile Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv'.csv'.
+File name: 'C:\uploadedFiles\'citylist.csv'.csv'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 86
+2019-06-02 16:26:56,816 [5] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetWeather Data Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv'.csv'.
+File name: 'C:\uploadedFiles\'citylist.csv'.csv'
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 103
+   at WeatherService.Controllers.WeatherServiceController.<GetWeatherData>d__1.MoveNext() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 34
+2019-06-02 16:28:39,535 [6] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetDataFromCsvFile Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv''.
+File name: 'C:\uploadedFiles\'citylist.csv''
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 86
+2019-06-02 16:28:39,574 [6] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetWeather Data Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv''.
+File name: 'C:\uploadedFiles\'citylist.csv''
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 103
+   at WeatherService.Controllers.WeatherServiceController.<GetWeatherData>d__1.MoveNext() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 34
+2019-06-02 16:30:02,375 [11] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetDataFromCsvFile Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv''.
+File name: 'C:\uploadedFiles\'citylist.csv''
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 86
+2019-06-02 16:30:02,397 [11] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetWeather Data Method
+System.IO.FileNotFoundException: Could not find file 'C:\uploadedFiles\'citylist.csv''.
+File name: 'C:\uploadedFiles\'citylist.csv''
+   at WeatherService.Controllers.WeatherServiceController.GetDataFromCsvFile(String fileName) in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 103
+   at WeatherService.Controllers.WeatherServiceController.<GetWeatherData>d__1.MoveNext() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 34
+2019-06-02 16:53:56,204 [5] ERROR WeatherService.Controllers.FileUploadController - Error ocurred in FileUpload Method
+System.IO.IOException: The process cannot access the file 'C:\uploadedFiles\citylist.csv' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at WeatherService.Controllers.FileUploadController.FileUpload() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\FileUploadController.cs:line 30
+2019-06-02 16:56:33,843 [6] ERROR WeatherService.Controllers.WeatherServiceController - Error ocurred in GetWeather Data Method
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.<GetContentAsync>d__33`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at WeatherService.Controllers.WeatherServiceController.<GetWeatherData>d__1.MoveNext() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\WeatherServiceController.cs:line 43
+2019-06-02 16:58:24,464 [7] ERROR WeatherService.Controllers.FileUploadController - Error ocurred in FileUpload Method
+CsvHelper.HeaderValidationException: Header with name 'City_Name' was not found. If you are expecting some headers to be missing and want to ignore this validation, set the configuration HeaderValidated to null. You can also change the functionality to do something else, like logging the issue.
+   at CsvHelper.Configuration.ConfigurationFunctions.HeaderValidated(Boolean isValid, String[] headerNames, Int32 headerNameIndex, ReadingContext context)
+   at CsvHelper.CsvReader.ValidateHeader(ClassMap map)
+   at CsvHelper.CsvReader.ValidateHeader(Type type)
+   at CsvHelper.CsvReader.ValidateHeader[T]()
+   at CsvHelper.CsvReader.<GetRecords>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WeatherService.Controllers.FileUploadController.FileUpload() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\FileUploadController.cs:line 36
+2019-06-02 17:01:21,519 [7] ERROR WeatherService.Controllers.FileUploadController - Error ocurred in FileUpload Method
+CsvHelper.HeaderValidationException: Header with name 'City_Name' was not found. If you are expecting some headers to be missing and want to ignore this validation, set the configuration HeaderValidated to null. You can also change the functionality to do something else, like logging the issue.
+   at CsvHelper.Configuration.ConfigurationFunctions.HeaderValidated(Boolean isValid, String[] headerNames, Int32 headerNameIndex, ReadingContext context)
+   at CsvHelper.CsvReader.ValidateHeader(ClassMap map)
+   at CsvHelper.CsvReader.ValidateHeader(Type type)
+   at CsvHelper.CsvReader.ValidateHeader[T]()
+   at CsvHelper.CsvReader.<GetRecords>d__63`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WeatherService.Controllers.FileUploadController.FileUpload() in C:\Users\nshete\Documents\Visual Studio 2017\Projects\WeatherService\WeatherService\Controllers\FileUploadController.cs:line 36
