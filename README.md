@@ -16,18 +16,19 @@ Weather service which will fetch city wise data from Open WeatherRESTful service
 
 6) Have also added swagger library to WEBAPI project to test API
 
-7) Repo contains valid (citylist.csv) file and invalid (citylist - Copy.csv,myapp - Copy.csv) files to test
+7) Repo contains valid ('citylist.csv') file and invalid ('citylist - Copy.csv', 'myapp - Copy.csv') files to test
 
 # Things to be implemented
-  1)We can use Polly based framework for retry mechanism in http calls.
+
+1) We can use Polly based framework for retry mechanism in http calls.
   
-  2)We can use chunked based file upload for large files or in case of slow internet.
+2) We can use chunked based file upload for large files or in case of slow internet.
 
 
 # Alternative Approaches
-  1) I was unsure whether its a windows service which will run on schedule and pick up file from server running the service. But this approach also can be used for above case study except file upload functionality.
+ 1) I was unsure whether its a windows service which will run on schedule and pick up file from server running the service. But this approach also can be used for above case study except file upload functionality.
   
-  2) We can implement Azure Function based scheduler which will run on fixed schedule and will pick up city list file from Azure Blob or Azure File System. In addition to this, it will also store the city wise files on storage blob or Azure file system.
+ 2) We can implement Azure Function based scheduler which will run on fixed schedule and will pick up city list file from Azure Blob or Azure File System. In addition to this, it will also store the city wise files on storage blob or Azure file system.
   
 
 
