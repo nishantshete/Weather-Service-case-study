@@ -10,11 +10,13 @@ Weather service which will fetch city wise data from Open WeatherRESTful service
 
 3) All IDisposable classes, I have used in 'Using' tag, so it gets disposed automatically.
 
-4)Have used single instance of Httpclient for multiple API calls, which makes object creation efficient and improves performance.
+4) Have used single instance of Httpclient for multiple API calls, which makes object creation efficient and improves performance.
 
-5)Have used Log4net library for logging errors in log file.
+5) Have used Log4net library for logging errors in log file.
 
-6)Have also added swagger library to WEBAPI project to test API
+6) Have also added swagger library to WEBAPI project to test API
+
+7) Repo contains valid (citylist.csv) file and invalid (citylist - Copy.csv,myapp - Copy.csv) files to test
 
 # Things to be implemented
   1)We can use Polly based framework for retry mechanism in http calls.
